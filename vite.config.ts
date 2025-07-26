@@ -4,7 +4,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/rushikesh_rw/", // Add this line!
+  base: "/rushikesh_rw/", // Must be exactly this
   plugins: [react()],
   resolve: {
     alias: {
